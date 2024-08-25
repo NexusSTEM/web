@@ -1,0 +1,30 @@
+.hero {
+    height: 100vh; /* Full height of the viewport */
+    background: url('imgs/Screenshot\ 2024-08-25\ at\ 9.26.41\ AM.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+body {
+    background: #e5e9f5;
+}
+
+#typewriter {
+    font-size: 2.5rem;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block; /* Ensures that the border is in line with the text */
+    vertical-align: bottom; /* Aligns the caret with the bottom of the text */
+    border-right: 0.15em solid rgb(255, 255, 255); /* Caret color */
+    animation: blink-caret 0.75s step-end infinite;
+}
+
+/* Blinking caret animation */
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
