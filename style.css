@@ -46,9 +46,15 @@ body {
 
 .mission {
     text-align: left;
-    height: 85vh;
     background: rgb(188,192,205);
     background: linear-gradient(90deg, rgba(188,192,205,1) 0%, rgba(70,84,163,1) 100%);
+    color: white;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.workshopssection {
+    text-align: left;
     color: white;
     padding-top: 40px;
     padding-left: 20px;
