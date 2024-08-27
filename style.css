@@ -55,7 +55,14 @@ body {
 
 .workshopssection {
     text-align: left;
-    color: white;
+    color: black;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.grantstuff {
+    text-align: right;
+    color: black;
     padding-top: 40px;
     padding-left: 20px;
 }
